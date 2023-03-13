@@ -49,7 +49,6 @@ namespace BookAPI
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => {
-                    c.DocumentTitle = "BookAPI - Swagger docs";
                     c.SwaggerEndpoint("/swagger/v1/swagger.json", "BookAPI v1");
                     c.EnableDeepLinking();
                     c.DefaultModelsExpandDepth(0);
